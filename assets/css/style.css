@@ -136,3 +136,12 @@ body {
 .lime {
     background-color: var(--tobo-lime);
 }
+
+footer>p {
+    background-color: var(--tobo-white);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: var(--tobo-blu);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
