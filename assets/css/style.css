@@ -82,6 +82,11 @@ body {
     color: var(--tobo-dark);
 }
 
+#new_task,
+#today {
+    margin-bottom: 2em;
+}
+
 .check {
     border: 1px solid var(--tobo-green);
     border-radius: 50%;
@@ -96,6 +101,8 @@ body {
 .check_x {
     color: var(--tobo-red);
     border: 1px solid var(--tobo-red);
+    margin-top: 1.5em;
+    margin-bottom: 1em;
 }
 
 .button_list {
@@ -118,4 +125,12 @@ body {
 
 .orange {
     background-color: var(--tobo-orange);
+}
+
+.pink {
+    background-color: var(--tobo-pink);
+}
+
+.lime {
+    background-color: var(--tobo-lime);
 }
