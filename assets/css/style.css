@@ -26,6 +26,7 @@ body {
     background-color: var(--tobo-lightgrey);
 }
 
+/*header*/
 #site_header {
     background-color: var(--tobo-white);
 }
@@ -44,6 +45,7 @@ body {
     padding-bottom: 1rem;
 }
 
+/*main*/
 #site_main {
     background-color: var(--tobo-white);
     width: 80%;
@@ -72,4 +74,31 @@ body {
     background-color: var(--tobo-white);
     color: var(--tobo-grey);
     border: 1px solid var(--tobo-grey);
+}
+
+#body_main {
+    padding: 2.5rem;
+    font-family: Arial, sans-serif;
+    color: var(--tobo-dark);
+}
+
+.check {
+    border: 1px solid var(--tobo-green);
+    border-radius: 50%;
+    color: var(--tobo-green);
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.button_list {
+    border-radius: 0.8rem;
+    border-width: 0rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--tobo-button);
+    color: var(--tobo-white);
 }
