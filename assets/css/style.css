@@ -43,3 +43,33 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+#site_main {
+    background-color: var(--tobo-white);
+    width: 80%;
+    margin: 2rem auto;
+}
+
+#head_main {
+    border-bottom: 1px solid var(--tobo-lightgrey);
+}
+
+.button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border-width: 0rem;
+}
+
+.task {
+    background-color: var(--tobo-button);
+    color: var(--tobo-white);
+    margin-left: 2.5rem;
+}
+
+.section {
+    background-color: var(--tobo-white);
+    color: var(--tobo-grey);
+    border: 1px solid var(--tobo-grey);
+}
