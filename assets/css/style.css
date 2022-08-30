@@ -93,6 +93,11 @@ body {
     font-weight: 300;
 }
 
+.check_x {
+    color: var(--tobo-red);
+    border: 1px solid var(--tobo-red);
+}
+
 .button_list {
     border-radius: 0.8rem;
     border-width: 0rem;
@@ -101,4 +106,16 @@ body {
     margin-bottom: 1rem;
     background-color: var(--tobo-button);
     color: var(--tobo-white);
+}
+
+.violet {
+    background-color: var(--tobo-violet);
+}
+
+.green {
+    background-color: var(--tobo-green);
+}
+
+.orange {
+    background-color: var(--tobo-orange);
 }
