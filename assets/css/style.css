@@ -3,12 +3,43 @@
     --tobo-green: #64C0A9;
     --tobo-button: #45ABEA;
     --tobo-dark: #474B54;
+
     --tobo-blu: #47ADF1;
     --tobo-violet: #9C72E4;
     --tobo-lime: #B0C926;
     --tobo-pink: #D863A1;
     --tobo-red: #EB5952;
     --tobo-orange: #F29E33;
-    --tobo-white: #F6F8F9;
+    --tobo-lightgrey: #F6F8F9;
     --tobo-grey: #C5CBD0;
+    --tobo-white: #FFFFFF;
+    --tobo-black: #000000;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--tobo-lightgrey);
+}
+
+#site_header {
+    background-color: var(--tobo-white);
+}
+
+.site_name {
+    font-family: Arial, sans-serif;
+    color: var(--tobo-black);
+    font-size: 2rem;
+    font-weight: 700;
+    vertical-align: 30%;
+}
+
+#logo_position {
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
